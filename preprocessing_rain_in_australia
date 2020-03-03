@@ -32,7 +32,7 @@ data.describe(include=['object'])
 plt.figure(figsize=(20,60))
 
 plt.subplot(6,2,1)
-fig=data.grouby('RainTomorrow').boxplot(column='WindSpeed9am')
+fig=data.boxplot(column='WindSpeed9am')
 fig.set_title('')
 fig.set_ylabel('WindSpeed9am')
 
