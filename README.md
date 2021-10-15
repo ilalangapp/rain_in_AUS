@@ -3,7 +3,7 @@ Predicting rain is a thing, as all human activities will be influenced by rain. 
 forecasting the rainfall will help the farmers and other related parties.
 
 ## Context
-This aim of this project is to predict the next-day rain with some information relating to the weather. 
+The aim of this project is to predict the next-day rain with some information relating to the weather. 
 The target variable is binary. And through this project, binary classification will be carried out 
 with various classifaction methods to find the best model that suits the case. 
 Data exploration also will be done to identify the characteristics of the data.
