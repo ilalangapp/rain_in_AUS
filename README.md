@@ -3,7 +3,7 @@ Predicting rain is a thing, as all human activities will be influenced by rain. 
 forecasting the rainfall will help the farmers and other related parties.
 
 ## Context
-This project is about predicting the next-day rain with some information relating to the weather. 
+This aim of this project is to predict the next-day rain with some information relating to the weather. 
 The target variable is binary. And through this project, binary classification will be carried out 
 with various classifaction methods to find the best model that suits the case. 
 Data exploration also will be done to identify the characteristics of the data.
@@ -38,11 +38,46 @@ RainTomorrow: This means, Did it rain the nex day? **Yes** or **No**
 - Temp3pm: Temperature (degrees C) at 3pm
 - RainToday: Boolean: 1 if precipitation (mm) in the 24 hours to 9am exceeds 1mm, otherwise 0
 
-## Methods
-asdfghjkl
+## Python Library Used
+- numpy
+- pandas
+- patplotlib
+- seaborn
+- from scipy import stats
+- from sklearn.preprocessing import MinMaxScaler
+- from sklearn.model_selection import train_test_split
+- from sklearn.linear_model import LogisticRegression
+- from sklearn-neighbors import KNeighborsClassifier
+- from sklearn.tree import DecisionTreeClassifier
+- from sklearn.ensemble import RandomForestClassifier
+- from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
-## Further Reading
-For further interpretation and explanation please visit my [medium](https://github.com/ilalangapp/datamining/edit/master/README.md)
+## Exploratory Data Analysis
+- Dataset shape
+- Dataset info
+- Dataset descripcion (Descriptive Statistics)
+- Data visualisation (Boxplot, Histogram, Barplot, Pie Chart, Scatter Plot, Heatmap)
+- Correlation
+
+## Pre-processing Process
+- Checking missing value
+- Dropping unnecessary columns
+- Missing value imputation
+- Outliers Detection using Z-score
+- Handling outliers
+- One-Hot Encoding
+- Scaling Data
+
+## Model Building
+- Logistic Regression
+- K-Nearest Neighbors
+- Decision Tree/ CART
+- Random Forest
+
+## Model Evaluation
+- Accuracy
+- Confusion Matrix
+- Classification Report (Precision, Recall, F1-Score)
 
 ## Source & Acknowledgements
 Observations were drawn from numerous weather stations. The daily observations are available from http://www.bom.gov.au/climate/data \
