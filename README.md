@@ -41,13 +41,13 @@ RainTomorrow: This means, Did it rain the nex day? **Yes** or **No**
 ## Python Library Used
 - numpy
 - pandas
-- patplotlib
+- matplotlib
 - seaborn
 - from scipy import stats
 - from sklearn.preprocessing import MinMaxScaler
 - from sklearn.model_selection import train_test_split
 - from sklearn.linear_model import LogisticRegression
-- from sklearn-neighbors import KNeighborsClassifier
+- from sklearn.neighbors import KNeighborsClassifier
 - from sklearn.tree import DecisionTreeClassifier
 - from sklearn.ensemble import RandomForestClassifier
 - from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
@@ -55,7 +55,7 @@ RainTomorrow: This means, Did it rain the nex day? **Yes** or **No**
 ## Exploratory Data Analysis
 - Dataset shape
 - Dataset info
-- Dataset descripcion (Descriptive Statistics)
+- Dataset description (Descriptive Statistics)
 - Data visualisation (Boxplot, Histogram, Barplot, Pie Chart, Scatter Plot, Heatmap)
 - Correlation
 
@@ -65,8 +65,8 @@ RainTomorrow: This means, Did it rain the nex day? **Yes** or **No**
 - Missing value imputation
 - Outliers Detection using Z-score
 - Handling outliers
-- One-Hot Encoding
-- Scaling Data
+- One-Hot encoding
+- Scaling data
 
 ## Model Building
 - Logistic Regression
